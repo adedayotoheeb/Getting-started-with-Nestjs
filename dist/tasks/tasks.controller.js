@@ -17,7 +17,7 @@ let TasksController = class TasksController {
         this.tasksService = tasksService;
     }
     getAllTasks() {
-        return this.tasksService.getAllTasks;
+        return this.tasksService.getAllTasks();
     }
 };
 __decorate([
@@ -27,7 +27,7 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], TasksController.prototype, "getAllTasks", null);
 TasksController = __decorate([
-    (0, common_1.Controller)('tasks'),
+    (0, common_1.Controller)("tasks"),
     __metadata("design:paramtypes", [tasks_service_1.TasksService])
 ], TasksController);
 exports.TasksController = TasksController;

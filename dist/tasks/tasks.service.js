@@ -10,10 +10,10 @@ exports.TasksService = void 0;
 const common_1 = require("@nestjs/common");
 let TasksService = class TasksService {
     constructor() {
-        this.tasks = ['hrlo'];
+        this.tasks = [];
     }
     getAllTasks() {
-        return 'hello';
+        return this.tasks;
     }
 };
 TasksService = __decorate([
